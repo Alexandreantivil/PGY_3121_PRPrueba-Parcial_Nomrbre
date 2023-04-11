@@ -22,18 +22,18 @@ function tabs(nav){
         let target = e.target;
 
         if(hasClass(target,"tab"))
-        radioClass(target, "active");
+           radioClass(target, "active");
 
         let linkedTab = E("." + target.id)[0];
 
         radioClass(linkedTab, "visible");
 
 
-    })
+    });
     
     let active = E(".tab.active")[0];
     if(active) {
-        radioClass(E)("."+active.id[0], "visible");
+        radioClass(E("."+active.id)[0], "visible");
     }
 
 }
