@@ -1,8 +1,8 @@
 function E(selector, parent) {
-    if (selector instanceof HTMLelement)
+    if (selector instanceof HTMLElement)
     return selector;
 
-    return(parent || document). querySelectorAll(selector);
+    return(parent || document).querySelectorAll(selector);
 }
 
 function hasClass(element, className) {
