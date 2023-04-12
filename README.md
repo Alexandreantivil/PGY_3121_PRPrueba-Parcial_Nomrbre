@@ -1,4 +1,4 @@
-# PGY3121_PruebaParcial1_Pxfivegames
+# PGY3121_PruebaParcial1_PxFivegames
 Trabajo grupal de programacion web
 Pxfivegames 
 integrantes: Sebastian Cortes, Alexandre Antivil, Pablo Cotal
